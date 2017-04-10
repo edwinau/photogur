@@ -1,3 +1,128 @@
-// Place all the styles related to the pictures controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html{
+  height: 100vw;
+}
+
+body{
+  background-image: url("sky.jpg");
+  background-size: 1700px;
+  text-align: center;
+  height: 100vw;
+
+}
+
+.title{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px 0px 5px 0px;
+  margin: 30px 0 30px 0;
+  font-family: "cooper std";
+  font-style: italic;
+  font-weight:lighter;
+  text-align: right;
+  font-size: 1.7em;
+  color: #3e9fe5;
+}
+
+.hello{
+  font-size: 2em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.ind_div {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 310px;
+  height: 150px;
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 310px;
+  background-color: rgba(255,255,255, 0.4);
+  height: 250px;
+  text-align: center;
+  margin: 30px 30px;
+  border-radius:25px;
+}
+
+
+.img_img{
+  box-sizing: border-box;
+  width: 85%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.img_text{
+  box-sizing: border-box;
+  width: 200px;
+  display: inline;
+  font-family: arial;
+}
+
+.copyright{
+  color: white;
+  text-align: right;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1em;
+}
