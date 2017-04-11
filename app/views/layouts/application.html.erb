@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
   <h1 class="title">welcome to <span class="hello">photogur</span></h1>
 
 
@@ -18,43 +17,13 @@
 
 <%= yield %>
 
-
-<%= link_to "New Picture", "/pictures/new" %>
-
+</body>
 
 <footer>
-  <p class="copyright">  &copy Edwin 2016 </p>
+
+  <p class="new_picture"><%= link_to "add photo", "/pictures/new" %></p>
+  <p class="copyright">  &copyEdwin2016 </p>
 
 </footer>
 
-</body>
 </html>
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link href="style.css" type="text/css" rel="stylesheet"/>
-    <title>edwinau.com</title>
-  </head>
-
-  <body>
-
-      <h1 id=h1layout>YOUR DATABASE</h1>
-
-      <nav>
-        <li id=indexnav><a href="/">HOME<a></li>
-        <li id=indexnav><a href="/new_contact">ADD A CONTACT</a></li>
-        <li id=indexnav>ABOUT</li>
-      </nav>
-
-       <%=yield%>
-
-
-
-        </body>
-</html> -->

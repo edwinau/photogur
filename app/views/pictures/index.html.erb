@@ -1,6 +1,7 @@
 <% @pictures.each do |picture| %>
   <div class="ind_img">
-    <img src="<%= picture.url %>" , link_to "show" , class="img_img">
-    <p class="img_text"><%= picture.title %>, <%= picture.artist %></p>
+    <%= link_to image_tag(picture.url, class: "img_img"), picture_path(picture.id)%>
+    <div class="img_text"><%= picture.title %>, <%= picture.artist %></div>
+    <!-- <img src="<%= picture.url %>" class="img_img"> -->
   </div>
 <% end %>

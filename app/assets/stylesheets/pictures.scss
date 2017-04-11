@@ -53,15 +53,12 @@ table {
 */
 
 html{
-  height: 100vw;
+  background-size: cover;
 }
 
 body{
   background-image: url("sky.jpg");
-  background-size: 1700px;
   text-align: center;
-  height: 100vw;
-
 }
 
 .title{
@@ -73,13 +70,13 @@ body{
   font-style: italic;
   font-weight:lighter;
   text-align: right;
-  font-size: 1.7em;
+  font-size: 1.2em;
   color: #3e9fe5;
 }
 
 .hello{
   font-size: 2em;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 30px;
 }
 
@@ -87,18 +84,18 @@ div.ind_div {
   box-sizing: border-box;
   position: relative;
   display: inline-block;
-  width: 310px;
+  width: 290px;
   height: 150px;
 }
 
 div {
   box-sizing: border-box;
   display: inline-block;
-  width: 310px;
+  width: 290px;
   background-color: rgba(255,255,255, 0.4);
-  height: 250px;
+  height: 220px;
   text-align: center;
-  margin: 30px 30px;
+  margin: 10px 30px;
   border-radius:25px;
 }
 
@@ -119,10 +116,71 @@ div {
   font-family: arial;
 }
 
+
+footer {
+  position: absolute;
+  display: block;
+  // background-color: rgba(255,255,255, 0.4);
+  background: linear-gradient(to top, rgba(255,255,255, .9) 40%, rgba(255,255,255, 0));
+  height: 125px;
+  bottom: 0px;
+  width: 100%;
+}
+
 .copyright{
-  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #3e9fe5;
   text-align: right;
   font-family: arial;
   font-weight: bold;
-  font-size: 1em;
+  font-size: .7em;
 }
+
+.new_picture{
+  font-size: 1em;
+  font-family: arial;
+  text-align: left;
+  text-decoration: none;
+}
+.new_picture a:link {
+  position: absolute;
+  text-decoration: none;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;  bottom: 20px;
+  left: 40px;
+  font-size: 1.5em;
+  border: 1px blue solid ;
+  padding: 20px;
+  color: #3e9fe5;
+  border-radius: 15px;
+  background: white;
+  opacity: .8
+}
+
+a {
+  text-decoration: none;
+  color: #3e9fe5;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: #3e9fe5;
+
+ }
+a:hover {
+   text-decoration: none;
+   color: #3e9fe5;
+
+ }
+a:focus {
+   text-decoration: none;
+   color: #3e9fe5;
+
+ }
+a:hover, a:active {
+   text-decoration: none;
+   color: #3e9fe5;
+
+ }
