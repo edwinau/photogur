@@ -143,6 +143,7 @@ footer {
   font-family: arial;
   text-align: left;
   text-decoration: none;
+  z-index: 100;
 }
 .new_picture a:link {
   position: absolute;
@@ -157,6 +158,13 @@ footer {
   background: white;
   opacity: .8
 }
+
+form#new_picture{
+  margin-right: 30%;
+  margin-top: 10%;
+}
+
+
 
 a {
   text-decoration: none;
@@ -184,3 +192,30 @@ a:hover, a:active {
    color: #3e9fe5;
 
  }
+
+.new_field {
+  font-family: arial;
+  color: #005592;
+  font-size: 3em;
+
+}
+
+.new_box {
+  width: 300px;
+  height: 50px;
+  border: 1px SOLID #3e9fe5;
+}
+
+.new_box_combo{
+  text-align: right;
+  margin: 40px;
+}
+
+
+.edit_page_pic {
+  width: 30%;
+}
+
+div#none {
+  background-color: rgba(255,255,255, 0);
+}

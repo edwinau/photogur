@@ -1,27 +1,20 @@
-<h1>Add a picture</h1>
-
-<%= link_to "Back to Pictures", pictures_url %>
-
-
 <%= form_for @picture do |f| %>
-  <p>
-    <%= f.label :artist %><br>
-    <%= f.text_field :artist %>
-
-
+  <p class="new_box_combo">
+    <%= f.label :artist, class: "new_field"%>
+    <%= f.text_field :artist, class: "new_box"%>
   </p>
-  <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+  <p class="new_box_combo">
+    <%= f.label :title, class: "new_field"%>
+    <%= f.text_field :title, class: "new_box"%>
   </p>
 
-  <p>
-    <%= f.label :url %><br>
-    <%= f.text_field :url %>
+  <p class="new_box_combo">
+    <%= f.label :url, class: "new_field"%>
+    <%= f.text_field :url, class: "new_box" %>
   </p>
-  
-  <p>
-    <%= f.submit "Save" %>
+
+  <p class="new_box_combo" id="save">
+    <%= f.submit "Save"%>
   </p>
 
   <% if @picture.errors.any? %>
@@ -36,3 +29,11 @@
   <% end %>
 
 <% end %>
+
+
+<footer>
+
+  <p class="new_picture"><%= link_to "Back to Home Page", pictures_url %></p>
+  <p class="copyright">  &copyEdwin2016 </p>
+
+</footer>
